@@ -3,9 +3,13 @@ import "../../App.css"
 const ProfilePhoto =()=>{
 return(
 <>
-<img src={pic} alt="...."></img>
+<div className="header">
+    <img className="photo" src={pic} alt="...."></img>
+    <h1 className="Titre">hello</h1>
+</div>
+
 <br/>
-<h1 className="Titre">hello</h1>
+
 
 
 </>
