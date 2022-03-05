@@ -1,11 +1,9 @@
-import "../app.css"
+import pic from "./pic.jpg"
+import "../../App.css"
 const ProfilePhoto =()=>{
 return(
 <>
-
-
-<img src="./src/Component/Profile/pic.jpg" alt="erreur" ></img>
-
+<img src={pic} alt="...."></img>
 <br/>
 <h1 className="Titre">hello</h1>
 
